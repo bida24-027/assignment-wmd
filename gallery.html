@@ -5,6 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gallery - Chic & Cozy Designs</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 2rem;
+    }
+
+    .gallery-item {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+    .gallery-item p {
+      margin-top: 0.5rem;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .gallery h2 {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 2rem;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -21,153 +61,61 @@
   <main>
     <section class="gallery">
       <h2>Interior Design Gallery</h2>
+
       <div class="gallery-grid">
-        <div class="gallery-item">
-          <img src="images/29 Smart Living Room Designs 3.jpg" alt="Living Room">
-          <p>Living Room</p>
-        </div>
-
-        <div class="gallery-item">
-          <img src="images/livingroom 4.jpg" alt="Living Room">
-          <p>Living Room</p>
-        </div>
-
-        <div class="gallery-item">
-          <img src="images/livingroom 3.jpg" alt="Living Room">
-          <p>Living Room</p>
-        </div>
-
-        <div class="gallery-item">
-          <img src="images/living room 5.jpg" alt="Living Room">
-          <p>Living Room</p>
-        </div>
-
-        <div class="gallery-item">
-          <img src="images/living room 6.jpg" alt="Living Room">
-          <p>Living Room</p>
-        </div>
-
-        <div class="gallery-item">
-          <img src="images/living room 12.jpg" alt="Living Room">
-          <p>Living Room</p>
-        </div>
-
         <div class="gallery-item">
           <img src="images/living room 10.jpg" alt="Living Room">
           <p>Living Room</p>
         </div>
-
         <div class="gallery-item">
-          <img src="images/living room 11.jpg" alt="Living Room">
+          <img src="images/livingroom 4.jpg" alt="Living Room">
           <p>Living Room</p>
         </div>
-
         <div class="gallery-item">
-          <img src="images/living room 9.jpg" alt="Living Room">
+          <img src="images/livingroom 3.jpg" alt="Living Room">
           <p>Living Room</p>
         </div>
-
         <div class="gallery-item">
-          <img src="images/living room 1.jpg" alt="Living Room">
+          <img src="images/living room 5.jpg" alt="Living Room">
           <p>Living Room</p>
         </div>
-
         <div class="gallery-item">
-          <img src="images/dark themed kitched with wooden island.jpg" alt="Kitchen">
-          <p>Kitchen</p>
+          <img src="images/living room 6.jpg" alt="Living Room">
+          <p>Living Room</p>
         </div>
-
         <div class="gallery-item">
-          <img src="images/kitchen 1.jpg" alt="Kitchen">
-          <p>Kitchen</p>
+          <img src="images/living room 12.jpg" alt="Living Room">
+          <p>Living Room</p>
         </div>
-
         <div class="gallery-item">
           <img src="images/kitchen2.jpg" alt="Kitchen">
           <p>Kitchen</p>
         </div>
-
         <div class="gallery-item">
           <img src="images/kitchen3.jpg" alt="Kitchen">
           <p>Kitchen</p>
         </div>
-
         <div class="gallery-item">
           <img src="images/kitchen4.jpg" alt="Kitchen">
           <p>Kitchen</p>
         </div>
-
-        <div class="gallery-item">
-          <img src="images/kitchen5.jpg" alt="Kitchen">
-          <p>Kitchen</p>
-        </div>
-
-        <div class="gallery-item">
-          <img src="images/kitchen6.jpg" alt="Kitchen">
-          <p>Kitchen</p>
-        </div>
-        
-        <div class="gallery-item">
-          <img src="images/kitchen 7.jpg" alt="Kitchen">
-          <p>Kitchen</p>
-        </div>
-
-        <div class="gallery-item">
-          <img src="images/kitchen8.jpg" alt="Kitchen">
-          <p>Kitchen</p>
-        </div>
-
-        <div class="gallery-item">
-          <img src="images/kitchen 9.jpg" alt="Kitchen">
-          <p>Kitchen</p>
-        </div>
-        
-        
-        
-        
-        
-        
-        
-        
-
-        <div class="gallery-item">
-          <img src="images/16 Beige Bedroom Inspiration for Your Home….jpg" alt="Bedroom">
-          <p>Bedroom</p>
-        </div>
-
-        <div class="gallery-item">
-          <img src="images/bd2.jpg" alt="Bedroom">
-          <p>Bedroom</p>
-        </div>
-
-        <div class="gallery-item">
-          <img src="images/bd3.jpg" alt="Bedroom">
-          <p>Bedroom</p>
-        </div>
-
-        <div class="gallery-item">
-          <img src="images/bd4.jpg" alt="Bedroom">
-          <p>Bedroom</p>
-        </div>
-
         <div class="gallery-item">
           <img src="images/bd5.jpg" alt="Bedroom">
           <p>Bedroom</p>
         </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="images/bd6.jpg" alt="Bedroom">
-        <p>Bedroom</p>
-      </div>
-
-      <div class="gallery-item">
-        <img src="images/bd 7.jpg" alt="Bedroom">
-        <p>Bedroom</p>
+        <div class="gallery-item">
+          <img src="images/bd6.jpg" alt="Bedroom">
+          <p>Bedroom</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/bd 7.jpg" alt="Bedroom">
+          <p>Bedroom</p>
+        </div>
       </div>
     </section>
   </main>
 
+  <script src="script.js"></script>
   <footer>
     <p>&copy; 2025 Chic & Cozy Designs. All rights reserved.</p>
   </footer>
