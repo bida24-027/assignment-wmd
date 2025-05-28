@@ -5,6 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chic & Cozy Designs</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Highlighted Designs Styling */
+    .highlighted-designs {
+      display: flex;
+      gap: 20px;
+      padding: 2rem 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .design {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 300px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .design:hover {
+      transform: scale(1.03);
+    }
+
+    .design img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .design p {
+      margin: 1rem;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  </style>
 </head>
 <body>
   <header>
